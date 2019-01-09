@@ -37,7 +37,7 @@ public final class Firebase {
         self.accessToken = accessToken
 
         var url = baseURL
-        if url.characters.last != Character("/") {
+        if url.last != Character("/") {
             url.append(Character("/"))
         }
         self.baseURL = url
@@ -210,8 +210,6 @@ public final class Firebase {
         var url = baseURL + path + ".json"
         if let accessToken = accessToken {
             url += "?access_token=" + accessToken
-        } else if let auth = auth {
-            url += "?auth=" + auth
         }
         return url
     }
