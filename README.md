@@ -1,5 +1,4 @@
 # FirebaseSwift
-[![Build Status](https://api.travis-ci.org/gtchance/FirebaseSwift.svg?branch=master)](https://travis-ci.org/gtchance/FirebaseSwift) [![Language](https://img.shields.io/badge/language-Swift%204.0-orange.svg)](https://swift.org) ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 FirebaseSwift is intended for server-side Swift and acts as a wrapper around the Firebase REST api. Options for both synchronous and asynchronous calls.
 
@@ -10,7 +9,8 @@ FirebaseSwift is intended for server-side Swift and acts as a wrapper around the
 
 ## Swift Package Manager
 ```swift
-.package(url: "https://github.com/gtchance/FirebaseSwift.git", .upToNextMajor(from: "1.6"))
+        .package(url: "https://github.com/mhs2342/FirebaseSwift.git", from: "1.6.5")
+
 ```
 
 
